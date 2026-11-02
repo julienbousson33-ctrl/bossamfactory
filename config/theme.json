@@ -1,0 +1,183 @@
+{
+  "name": "Bossam Factory - Default Theme",
+  "version": "1.0.0",
+  "description": "Thème coloré et dynamique inspiré d'une scène urbaine artistique",
+  
+  "colors": {
+    "primary": {
+      "1": "#ff4757",
+      "2": "#ff6b6b",
+      "3": "#ffa502",
+      "4": "#ff3838"
+    },
+    "secondary": {
+      "1": "#48cae4",
+      "2": "#023e8a",
+      "3": "#0096c7",
+      "4": "#0077b6"
+    },
+    "accent": {
+      "1": "#2ed573",
+      "2": "#ff793f",
+      "3": "#badc58",
+      "4": "#f0932b"
+    },
+    "neutral": {
+      "1": "#ffffff",
+      "2": "#f8f9fa",
+      "3": "#e9ecef",
+      "4": "#dee2e6",
+      "5": "#ced4da",
+      "6": "#6c757d",
+      "7": "#495057",
+      "8": "#212529",
+      "9": "#121212"
+    }
+  },
+  
+  "gradients": {
+    "primary": "linear-gradient(135deg, #ff4757 0%, #ff6b6b 100%)",
+    "secondary": "linear-gradient(135deg, #48cae4 0%, #023e8a 100%)",
+    "accent": "linear-gradient(135deg, #2ed573 0%, #ff793f 100%)",
+    "dark": "linear-gradient(180deg, #212529 0%, #121212 100%)"
+  },
+  
+  "typography": {
+    "primary": "'Poppins', sans-serif",
+    "display": "'Jazz One', cursive",
+    "sizes": {
+      "base": "16px",
+      "small": "14px",
+      "large": "18px",
+      "xl": "20px",
+      "2xl": "24px",
+      "3xl": "32px",
+      "4xl": "48px",
+      "5xl": "64px"
+    },
+    "weights": {
+      "light": 300,
+      "normal": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700,
+      "extrabold": 800
+    }
+  },
+  
+  "spacing": {
+    "xs": "0.25rem",
+    "sm": "0.5rem",
+    "md": "1rem",
+    "lg": "1.5rem",
+    "xl": "2rem",
+    "2xl": "3rem",
+    "3xl": "4rem",
+    "4xl": "6rem"
+  },
+  
+  "borderRadius": {
+    "sm": "4px",
+    "md": "8px",
+    "lg": "16px",
+    "xl": "24px",
+    "full": "9999px"
+  },
+  
+  "shadows": {
+    "sm": "0 2px 4px rgba(0, 0, 0, 0.05)",
+    "md": "0 4px 12px rgba(0, 0, 0, 0.1)",
+    "lg": "0 8px 24px rgba(0, 0, 0, 0.15)",
+    "xl": "0 16px 32px rgba(0, 0, 0, 0.2)",
+    "primary": "0 8px 24px rgba(255, 71, 87, 0.3)",
+    "secondary": "0 8px 24px rgba(72, 202, 228, 0.3)"
+  },
+  
+  "transitions": {
+    "fast": "0.15s ease",
+    "normal": "0.3s ease",
+    "slow": "0.5s ease",
+    "bounce": "0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55)"
+  },
+  
+  "animations": {
+    "enabled": true,
+    "floatingElements": {
+      "count": 15,
+      "colors": ["#ff4757", "#ff6b6b", "#ffa502", "#48cae4", "#2ed573", "#ff793f"],
+      "sizes": {
+        "min": 20,
+        "max": 80
+      },
+      "duration": {
+        "min": 15,
+        "max": 25
+      }
+    },
+    "scroll": {
+      "threshold": 0.1,
+      "delayMultiplier": 100
+    }
+  },
+  
+  "features": {
+    "responsive": true,
+    "darkMode": false,
+    "customCursor": false,
+    "parallax": true,
+    "smoothScroll": true,
+    "lazyLoading": true,
+    "preloader": false
+  },
+  
+  "sections": {
+    "hero": {
+      "enabled": true,
+      "background": "dark",
+      "floatingElements": true
+    },
+    "about": {
+      "enabled": true,
+      "stats": true
+    },
+    "portfolio": {
+      "enabled": true,
+      "filters": true,
+      "itemsPerPage": 6
+    },
+    "services": {
+      "enabled": true,
+      "gridColumns": 3
+    },
+    "contact": {
+      "enabled": true,
+      "form": true,
+      "map": false
+    }
+  },
+  
+  "metadata": {
+    "title": "Bossam Factory | Art & Créativité",
+    "description": "Bossam Factory - Une usine à idées créatives, un espace artistique dynamique",
+    "keywords": ["art", "design", "créativité", "portfolio", "bossam factory"],
+    "author": "Bossam Factory",
+    "language": "fr",
+    "charset": "UTF-8",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  
+  "social": {
+    "instagram": "#",
+    "behance": "#",
+    "dribbble": "#",
+    "linkedin": "#",
+    "twitter": "#",
+    "facebook": "#"
+  },
+  
+  "contact": {
+    "email": "hello@bossamfactory.com",
+    "phone": "+33 1 23 45 67 89",
+    "address": "123 Rue de la Créativité, Paris"
+  }
+}
